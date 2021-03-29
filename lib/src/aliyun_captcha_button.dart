@@ -22,7 +22,7 @@ class AliyunCaptchaButton extends StatefulWidget {
   final Function(String errorCode)? onError;
 
   AliyunCaptchaButton({
-    required Key key,
+    Key? key,
     this.controller,
     this.type,
     this.option,
