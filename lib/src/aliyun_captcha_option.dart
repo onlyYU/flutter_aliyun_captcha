@@ -1,12 +1,12 @@
 // https://help.aliyun.com/document_detail/121898.html
 
 class AliyunCaptchaOption {
-  String appKey;
-  String scene;
-  String language;
-  int fontSize;
-  bool hideErrorCode;
-  Map<String, dynamic> upLang;
+  String? appKey;
+  String? scene;
+  String? language;
+  int? fontSize;
+  bool? hideErrorCode;
+  Map<String, dynamic>? upLang;
   dynamic test;
 
   AliyunCaptchaOption({
